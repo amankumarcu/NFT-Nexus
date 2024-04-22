@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Nexus</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <style>
+        /* Set the video container to cover the entire viewport */
+        #video-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            overflow: hidden;
+        }
+
+        /* Set the video to fill the container and prevent scrolling */
+        iframe {
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            object-fit: cover;
+        }
+
+        /* Set the content to appear above the video */
+        .content {
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Style adjustments */
+        .navbar {
+            background-color: transparent !important; /* Make navbar transparent */
+        }
+
+        .navbar-dark .navbar-nav .nav-link {
+            color: #fff; /* Set navbar link color to white */
+        }
+
+        .footer {
+            color: #fff; /* Set footer text color to white */
+        }
+
+        /* Set font color to white */
+        body {
+            color: #3c3434;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Video Background -->
+    <div id="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/k3UevKvP9RU?autoplay=1&start=300&loop=1&playlist=k3UevKvP9RU&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    
+    
+    
+
+    <!-- Content -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">NFT Nexus</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Introduction</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Unique Traits</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#collections">Featured Collections</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero" class="bg-light text-center py-5 content">
+        <div class="container">
+            <h2>Welcome to NFT Nexus</h2>
+            <p class="lead">A mentor who guides you through the journey of NFTs</p>
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-3">
+                    <img src="/Website/images/nft3.avif" class="img-fluid rounded" alt="NFT Image 1">
+                </div>
+                <div class="col-md-3">
+                    <img src="/Website/images/nft4.avif" class="img-fluid rounded" alt="NFT Image 2">
+                </div>
+                <div class="col-md-3">
+                    <img src="/Website/images/nft5.avif" class="img-fluid rounded" alt="NFT Image 3">
+                </div>
+                <div class="col-md-3">
+                    <img src="/Website/images/nft6.avif" class="img-fluid rounded" alt="NFT Image 4">
+                </div>
+            </div>
+            <a href="#about" class="btn btn-primary mt-4">Discover More</a>
+        </div>
+    </section>
+    
+
+    
+    
+
+    <section id="about" class="py-5 content">
+        <div class="container" style="color: #FBFADA;">
+            <h2 class="text-center mb-4">Introduction: Meet Professor Nexus</h2>
+            <p class="text-center">Professor Nexus is your knowledgeable guide in the world of NFTs. Just like a teacher introduces students to a new subject, Professor Nexus introduces you to the fascinating realm of non-fungible tokens (NFTs).</p>
+        </div>
+    </section>
+
+    
+
+    <section id="features" class="bg-light py-5 content">
+        <div class="container">
+            <h2 class="text-center mb-4">Unique Traits: What Makes Professor Nexus Stand Out?</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feature">
+                        <h3>Expertise</h3>
+                        <p>Professor Nexus possesses unparalleled expertise in NFT technology and its applications, ensuring you receive top-notch guidance.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature">
+                        <h3>Accessibility</h3>
+                        <p>Accessible to all students, Professor Nexus provides easy-to-understand explanations and resources for navigating the NFT landscape.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature">
+                        <h3>Innovation</h3>
+                        <p>Always at the forefront of innovation, Professor Nexus introduces you to cutting-edge concepts and trends shaping the world of NFTs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="collections" class="py-5 content" style="color: #FBFADA">
+        <div class="container">
+            <h2 class="text-center mb-4">Featured Collections: Showcasing Student Work</h2>
+            <p class="text-center">Just as a teacher proudly displays students' achievements, Professor Nexus showcases outstanding NFT collections created by artists and creators.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-light py-5 content">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Professor Nexus</h2>
+            <p class="text-center">Need further assistance or have questions? Feel free to reach out to Professor Nexus!</p>
+            <p class="text-center">Email: info@nftnexus.com</p>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-light py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 NFT Nexus. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
